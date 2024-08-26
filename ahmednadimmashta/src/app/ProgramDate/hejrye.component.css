@@ -1,0 +1,121 @@
+/*
+ملاحظة تم الاستعانة بموقع MDN 
+cssبامور ال  
+وال Html
+*/
+*{
+    direction: rtl;
+    /*
+مكتبة ال 
+ "node_modules/bootstrap/dist/css/bootstrap.rtl.min.css"
+ ما قلبت المشروع لهيك اضطريت استخدم هي الطريقة وطبقتا ع كل المشروع
+    */
+}
+.nav-tabs {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #007bff;
+    color: #007bff;
+    margin-right: 5px;
+    border-radius: .25rem;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+/*
+لكلاسات المتداخلة ما وصلا غير بهي الطريقة ماحسنت اوصللها بغير هي 
+مثال :.nav-tabs .nav-link.active
+*/
+.nav-tabs .nav-link.active {
+    background-color: #ffffff;
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+}
+
+.nav-pills .nav-link {
+    background-color: #f8f9fa;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    padding: 10px 20px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-bottom: none;
+}
+
+.form-control {
+    border-radius: 5px;
+    text-align: center;
+    height: 45px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.border {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.thead-light th {
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #ddd;
+}
+
+.birth{
+    width: 150px;
+    border: #0370a3 2px solid;
+    border-radius: 75px;
+    position: relative;
+    top: -24px;
+    right: 206px;
+    background-color: white;
+    
+}
+
+.div-birth{
+    border-top: #0370a3 2px solid;
+    background-color: #f0f2f5;
+}
+.hejrye{
+    border: #0370a3 2px solid ;
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 10px;
+}
